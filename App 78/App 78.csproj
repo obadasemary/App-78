@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60CB09AE-4304-4C94-818C-12E38D18DED5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App_78</RootNamespace>
+    <AssemblyName>App 78</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WhatsAppApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WhatsAppAPI.15.4.29\lib\net40\WhatsAppApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App 100 XML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 100 XML.Designer.cs">
+      <DependentUpon>App 100 XML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 102 SendSmsMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 102 SendSmsMessage.Designer.cs">
+      <DependentUpon>App 102 SendSmsMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 103 SmsWhatsApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 103 SmsWhatsApp.Designer.cs">
+      <DependentUpon>App 103 SmsWhatsApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 104 Receive SMS WhatsApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 104 Receive SMS WhatsApp.Designer.cs">
+      <DependentUpon>App 104 Receive SMS WhatsApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 105 Send Mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 105 Send Mail.Designer.cs">
+      <DependentUpon>App 105 Send Mail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 13.Designer.cs">
+      <DependentUpon>App 13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 26.Designer.cs">
+      <DependentUpon>App 26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 39.Designer.cs">
+      <DependentUpon>App 39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 54.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 54.Designer.cs">
+      <DependentUpon>App 54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 56.Designer.cs">
+      <DependentUpon>App 56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 58.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 58.Designer.cs">
+      <DependentUpon>App 58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 60.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 60.Designer.cs">
+      <DependentUpon>App 60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 61.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 61.Designer.cs">
+      <DependentUpon>App 61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 66.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 66.Designer.cs">
+      <DependentUpon>App 66.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 68.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 68.Designer.cs">
+      <DependentUpon>App 68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 70 Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 70 Print.Designer.cs">
+      <DependentUpon>App 70 Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 72 IO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 72 IO.Designer.cs">
+      <DependentUpon>App 72 IO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 78.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 78.Designer.cs">
+      <DependentUpon>App 78.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 79 SQL LIB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 79 SQL LIB.Designer.cs">
+      <DependentUpon>App 79 SQL LIB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 83 Add SQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 83 Add SQL.Designer.cs">
+      <DependentUpon>App 83 Add SQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 87 Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 87 Data.Designer.cs">
+      <DependentUpon>App 87 Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 88 Data Views.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 88 Data Views.Designer.cs">
+      <DependentUpon>App 88 Data Views.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 89 DataBinding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 89 DataBinding.Designer.cs">
+      <DependentUpon>App 89 DataBinding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 92 Stored Procedures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 92 Stored Procedures.Designer.cs">
+      <DependentUpon>App 92 Stored Procedures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 98 Backup Database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 98 Backup Database.Designer.cs">
+      <DependentUpon>App 98 Backup Database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App 99 TextToSpeech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App 99 TextToSpeech.Designer.cs">
+      <DependentUpon>App 99 TextToSpeech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="connector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connector.Designer.cs">
+      <DependentUpon>connector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="App 100 XML.resx">
+      <DependentUpon>App 100 XML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 102 SendSmsMessage.resx">
+      <DependentUpon>App 102 SendSmsMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 103 SmsWhatsApp.resx">
+      <DependentUpon>App 103 SmsWhatsApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 104 Receive SMS WhatsApp.resx">
+      <DependentUpon>App 104 Receive SMS WhatsApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 105 Send Mail.resx">
+      <DependentUpon>App 105 Send Mail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 13.resx">
+      <DependentUpon>App 13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 26.resx">
+      <DependentUpon>App 26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 39.resx">
+      <DependentUpon>App 39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 54.resx">
+      <DependentUpon>App 54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 56.resx">
+      <DependentUpon>App 56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 58.resx">
+      <DependentUpon>App 58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 60.resx">
+      <DependentUpon>App 60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 61.resx">
+      <DependentUpon>App 61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 66.resx">
+      <DependentUpon>App 66.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 68.resx">
+      <DependentUpon>App 68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 70 Print.resx">
+      <DependentUpon>App 70 Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 72 IO.resx">
+      <DependentUpon>App 72 IO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 78.resx">
+      <DependentUpon>App 78.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 79 SQL LIB.resx">
+      <DependentUpon>App 79 SQL LIB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 83 Add SQL.resx">
+      <DependentUpon>App 83 Add SQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 87 Data.resx">
+      <DependentUpon>App 87 Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 88 Data Views.resx">
+      <DependentUpon>App 88 Data Views.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 89 DataBinding.resx">
+      <DependentUpon>App 89 DataBinding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 92 Stored Procedures.resx">
+      <DependentUpon>App 92 Stored Procedures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 98 Backup Database.resx">
+      <DependentUpon>App 98 Backup Database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App 99 TextToSpeech.resx">
+      <DependentUpon>App 99 TextToSpeech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Visual-Studio-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_MG_4012.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8bd209fed6caadc0e2831690759c15cb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\XMLDATA.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
