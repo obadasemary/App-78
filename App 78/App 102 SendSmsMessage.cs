@@ -23,6 +23,7 @@ namespace App_78
             {
                 try
                 {
+                    //i use this http://www.vianett.com/en/developers/sms-api-overview api
                     string url = "http://smsc.vianett.no/v3/send.ashx?" +
                         "src=" + txtPhoneNumber.Text + "&" +
                         "dst=" + txtPhoneNumber.Text + "&" +
