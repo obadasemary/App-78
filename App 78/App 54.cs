@@ -241,6 +241,12 @@ namespace App_78
         {
             App_105_Send_Mail app = new App_105_Send_Mail();
             app.Show();
+        }
+
+        private void task1EnumSelectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Task_1_Enum_Selector app = new Task_1_Enum_Selector();
+            app.Show();
         }       
     }
 }
