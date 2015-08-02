@@ -69,6 +69,8 @@
             this.app103SMSWhatsAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.app104ReceiveSMSWhatsAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.app105SendMailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tasksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.task1EnumSelectorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblTime = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -80,8 +82,7 @@
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button3 = new System.Windows.Forms.Button();
-            this.tasksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.task1EnumSelectorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.task2EmployeeByPartialClassToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -398,6 +399,22 @@
             this.app105SendMailToolStripMenuItem.Text = "App 105 Send Mail";
             this.app105SendMailToolStripMenuItem.Click += new System.EventHandler(this.app105SendMailToolStripMenuItem_Click);
             // 
+            // tasksToolStripMenuItem
+            // 
+            this.tasksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.task1EnumSelectorToolStripMenuItem,
+            this.task2EmployeeByPartialClassToolStripMenuItem});
+            this.tasksToolStripMenuItem.Name = "tasksToolStripMenuItem";
+            this.tasksToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.tasksToolStripMenuItem.Text = "Tasks";
+            // 
+            // task1EnumSelectorToolStripMenuItem
+            // 
+            this.task1EnumSelectorToolStripMenuItem.Name = "task1EnumSelectorToolStripMenuItem";
+            this.task1EnumSelectorToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.task1EnumSelectorToolStripMenuItem.Text = "Task 1 Enum Selector";
+            this.task1EnumSelectorToolStripMenuItem.Click += new System.EventHandler(this.task1EnumSelectorToolStripMenuItem_Click);
+            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -483,20 +500,12 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // tasksToolStripMenuItem
+            // task2EmployeeByPartialClassToolStripMenuItem
             // 
-            this.tasksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.task1EnumSelectorToolStripMenuItem});
-            this.tasksToolStripMenuItem.Name = "tasksToolStripMenuItem";
-            this.tasksToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.tasksToolStripMenuItem.Text = "Tasks";
-            // 
-            // task1EnumSelectorToolStripMenuItem
-            // 
-            this.task1EnumSelectorToolStripMenuItem.Name = "task1EnumSelectorToolStripMenuItem";
-            this.task1EnumSelectorToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.task1EnumSelectorToolStripMenuItem.Text = "Task 1 Enum Selector";
-            this.task1EnumSelectorToolStripMenuItem.Click += new System.EventHandler(this.task1EnumSelectorToolStripMenuItem_Click);
+            this.task2EmployeeByPartialClassToolStripMenuItem.Name = "task2EmployeeByPartialClassToolStripMenuItem";
+            this.task2EmployeeByPartialClassToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.task2EmployeeByPartialClassToolStripMenuItem.Text = "Task 2 Employee By Partial Class";
+            this.task2EmployeeByPartialClassToolStripMenuItem.Click += new System.EventHandler(this.task2EmployeeByPartialClassToolStripMenuItem_Click);
             // 
             // App_54
             // 
@@ -577,5 +586,6 @@
         private System.Windows.Forms.ToolStripMenuItem app105SendMailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tasksToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem task1EnumSelectorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem task2EmployeeByPartialClassToolStripMenuItem;
     }
 }

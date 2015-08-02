@@ -247,6 +247,12 @@ namespace App_78
         {
             Task_1_Enum_Selector app = new Task_1_Enum_Selector();
             app.Show();
+        }
+
+        private void task2EmployeeByPartialClassToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Task_2_Info_Employee_By_Partial_Class app = new Task_2_Info_Employee_By_Partial_Class();
+            app.Show();
         }       
     }
 }
