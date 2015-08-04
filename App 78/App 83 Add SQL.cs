@@ -13,7 +13,7 @@ namespace App_78
 {
     public partial class App_83_Add_SQL : Form
     {
-        SqlConnection cn = new SqlConnection(@"Server=.\OBADA; DataBase=Lib_DB; Integrated Security =true");
+        SqlConnection cn = new SqlConnection(@"Server=.\SQLEXPRESS; DataBase=Lib_DB; Integrated Security =true");
         SqlCommand cmd;
         SqlDataReader sdr;
         public App_83_Add_SQL()

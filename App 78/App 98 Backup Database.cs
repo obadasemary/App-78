@@ -13,8 +13,8 @@ namespace App_78
 {
     public partial class App_98_Backup_Database : Form
     {
-        SqlConnection cn = new SqlConnection(@"Server=.\OBADA; DataBase=Lib_DB; Integrated Security =true");
-        SqlConnection CN = new SqlConnection(@"Server=.\OBADA; DataBase=Master; Integrated Security =true");
+        SqlConnection cn = new SqlConnection(@"Server=.\SQLEXPRESS; DataBase=Lib_DB; Integrated Security =true");
+        SqlConnection CN = new SqlConnection(@"Server=.\SQLEXPRESS; DataBase=Master; Integrated Security =true");
         SqlCommand Cmd;
         public App_98_Backup_Database()
         {

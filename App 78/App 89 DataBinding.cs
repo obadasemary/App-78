@@ -13,7 +13,7 @@ namespace App_78
 {
     public partial class App_89_DataBinding : Form
     {
-        SqlConnection cn = new SqlConnection(@"Server=.\OBADA; DataBase=Lib_DB; Integrated Security =true");
+        SqlConnection cn = new SqlConnection(@"Server=.\SQLEXPRESS; DataBase=Lib_DB; Integrated Security =true");
         SqlDataAdapter sDa;
         DataSet Ds = new DataSet();
         DataTable Dt = new DataTable();

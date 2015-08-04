@@ -14,7 +14,7 @@ namespace App_78
 {
     public partial class App_79_SQL_LIB : Form
     {
-        SqlConnection cn = new SqlConnection(@"Server=.\OBADA; DataBase=Lib_DB; Integrated Security =true");
+        SqlConnection cn = new SqlConnection(@"Server=.\SQLEXPRESS; DataBase=Lib_DB; Integrated Security =true");
         SqlCommand cmd;
         SqlDataReader sdr;
         public App_79_SQL_LIB()
